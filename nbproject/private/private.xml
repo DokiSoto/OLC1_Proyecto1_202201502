@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Modelo/Estrategias.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Analizadores/Lexer.flex</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Modelo/RunCommand.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/battlescript/Main.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Modelo/Bonus.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Analizadores/Parser.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/expr/Expresion.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Analizadores/TokenInfo.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/service/CompilerService.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Analizadores/CompileError.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/engine/BattleScriptExecutionException.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Analizadores/LexicalException.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Analizadores/ParseAbortException.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/expr/EvalContext.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/engine/BattleEngine.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Modelo/Puntaje.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Modelo/CHaracterType.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Modelo/Rule.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Modelo/MatchConfig.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Modelo/Accion.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/CosaQuegenera.bat</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Analizadores/Parser.cup</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/UI/MainFrame.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Analizadores/Lexer.java</file>
+            <file>file:/C:/Users/dxssm/OneDrive/Documentos/NetBeansProjects/OLC1_PROYECTO1_202201502/src/Modelo/ProgramaMOdelo.java</file>
+        </group>
+    </open-files>
+</project-private>
