@@ -118,11 +118,58 @@ public class BattleEngine {
             } else{
                 executeAction(player2, player1, action2, match, output);
                 
-                if(player2.health <=0){
+                if(player1.health <=0){
+                    finished = true;
                     
                 
                 }
+                else{
+                   executeAction(player1, player2, action1, match, output);
+                   
+                   if(player2.health <=0){
+                   
+                    finished = true;
+                   }
+                
+                }
             }
+            output.append("Estado -> ")
+                    .append(player1.name)
+                    .append(": HP=")
+                    .append(player1.health)
+                    .append(", recurso=")
+                    .append(player1.resource)
+                    .append(", puntos=")
+                    .append(player1.score)
+                    .append(" | ")
+                    .append(player2.name)
+                    .append(": HP=")
+                    .append(player2.health)
+                    .append(", recurso=")
+                    .append(player2.resource)
+                    .append(", puntos=")
+                    .append(player2.score)
+                    .append("\n");
+            
+            if(finished){
+              break;
+            }
+      }
+      
+      Combatant winner = determineWinner(player1, player2);
+      
+      if(winner = null){
+         output.append("\nnadie gano maje\n");
+      }
+      
+      else{
+         winner.score += match.getScoring().getVictoryBonus();
+         output.append("gano ese maje").append(winner.name).append(": +").append(match.getScoring().getVictoryBonus()).append("\n");
+          if(winner.health * 4 <= winner.maxHealth){
+             winner.score += match.getBonuses().getLowHealthVictory();
+             
+             output.append("ganaste raspado maje+ ").append(match.getBonuses().getLowHealthVictory()).append("\n");
+          }
       }
     }
 }
