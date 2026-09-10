@@ -170,6 +170,57 @@ public class BattleEngine {
              
              output.append("ganaste raspado maje+ ").append(match.getBonuses().getLowHealthVictory()).append("\n");
           }
+          
+          output.append("GANADOR: ").append(winner.name).append("n");
       }
+                output.append("puntaje final").append(player1.name).append(":").append(player1.score).append("\n");
+          output.append("puntaje final").append(player2.name).append(":").append(player2.score).append("\n");
+
     }
+    private EvalContext createContext(
+            int round,
+            int totalRounds,
+            Combatant self,
+            Combatant opponent,
+            double random
+    ) {
+
+        return new EvalContext(
+                round,
+                totalRounds,
+                self.health,
+                opponent.health,
+                self.resource,
+                opponent.resource,
+                self.score,
+                opponent.score,
+                new ArrayList<>(self.history),
+                new ArrayList<>(opponent.history),
+                random
+        );
+    }
+    
+    private boolean goesFirst(
+            Combatant player1,
+            Accion action1,
+            Combatant player2,
+            Accion action2
+    ) {
+
+        if (action1.getPriority()
+                != action2.getPriority()) {
+
+            return action1.getPriority()
+                    > action2.getPriority();
+        }
+
+        if (player1.speed != player2.speed) {
+
+            return player1.speed
+                    > player2.speed;
+        }
+
+        return true;
+    }
+    
 }
