@@ -26,7 +26,13 @@ public class BattleEngine {
             StringBuilder output = new StringBuilder();
             
             for(RunCommand run: program.getRuns()){
-            
+                for(String matchName : run.getMatches()){
+                    MatchConfig match = program.findMatch(matchName);
+                    output.append("partida: ").append(match.getName()).append("\n");
+                output.append("SEED: ").append(run.getSeed()).append("\n");
+                
+                executeMatch(program, match , run.getSeed(), output);
+                }
             }
     }
 }
